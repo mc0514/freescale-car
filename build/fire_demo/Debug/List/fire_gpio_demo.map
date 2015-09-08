@@ -1,0 +1,373 @@
+###############################################################################
+#                                                                             #
+# IAR ELF Linker V6.50.6.4896/W32 for ARM               08/Sep/2015  17:55:20 #
+# Copyright 2007-2013 IAR Systems AB.                                         #
+#                                                                             #
+#    Output file  =  C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire #
+#                    _demo\Debug\Exe\fire_gpio_demo.out                       #
+#    Map file     =  C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire #
+#                    _demo\Debug\List\fire_gpio_demo.map                      #
+#    Command line =  C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire #
+#                    _demo\Debug\Obj\AT24C02.o C:\Users\Chao\Desktop\landzoK6 #
+#                    0µ¥µç»ú¼ì²â³ÌÐò\build\fire_demo\Debug\Obj\FTM.o          #
+#                    C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire #
+#                    _demo\Debug\Obj\PIT.o C:\Users\Chao\Desktop\landzoK60µ¥µ #
+#                    ç»ú¼ì²â³ÌÐò\build\fire_demo\Debug\Obj\adc.o              #
+#                    C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire #
+#                    _demo\Debug\Obj\alloc.o C:\Users\Chao\Desktop\landzoK60µ #
+#                    ¥µç»ú¼ì²â³ÌÐò\build\fire_demo\Debug\Obj\arm_cm4.o        #
+#                    C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire #
+#                    _demo\Debug\Obj\assert.o C:\Users\Chao\Desktop\landzoK60 #
+#                    µ¥µç»ú¼ì²â³ÌÐò\build\fire_demo\Debug\Obj\calculation.o   #
+#                    C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire #
+#                    _demo\Debug\Obj\crt0.o C:\Users\Chao\Desktop\landzoK60µ¥ #
+#                    µç»ú¼ì²â³ÌÐò\build\fire_demo\Debug\Obj\delay.o           #
+#                    C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire #
+#                    _demo\Debug\Obj\dma.o C:\Users\Chao\Desktop\landzoK60µ¥µ #
+#                    ç»ú¼ì²â³ÌÐò\build\fire_demo\Debug\Obj\exti.o             #
+#                    C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire #
+#                    _demo\Debug\Obj\gpio.o C:\Users\Chao\Desktop\landzoK60µ¥ #
+#                    µç»ú¼ì²â³ÌÐò\build\fire_demo\Debug\Obj\i2c.o             #
+#                    C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire #
+#                    _demo\Debug\Obj\io.o C:\Users\Chao\Desktop\landzoK60µ¥µç #
+#                    »ú¼ì²â³ÌÐò\build\fire_demo\Debug\Obj\isr.o               #
+#                    C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire #
+#                    _demo\Debug\Obj\lptmr.o C:\Users\Chao\Desktop\landzoK60µ #
+#                    ¥µç»ú¼ì²â³ÌÐò\build\fire_demo\Debug\Obj\main.o           #
+#                    C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire #
+#                    _demo\Debug\Obj\mcg.o C:\Users\Chao\Desktop\landzoK60µ¥µ #
+#                    ç»ú¼ì²â³ÌÐò\build\fire_demo\Debug\Obj\memtest.o          #
+#                    C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire #
+#                    _demo\Debug\Obj\nokia.o C:\Users\Chao\Desktop\landzoK60µ #
+#                    ¥µç»ú¼ì²â³ÌÐò\build\fire_demo\Debug\Obj\printf.o         #
+#                    C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire #
+#                    _demo\Debug\Obj\queue.o C:\Users\Chao\Desktop\landzoK60µ #
+#                    ¥µç»ú¼ì²â³ÌÐò\build\fire_demo\Debug\Obj\start.o          #
+#                    C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire #
+#                    _demo\Debug\Obj\startup.o C:\Users\Chao\Desktop\landzoK6 #
+#                    0µ¥µç»ú¼ì²â³ÌÐò\build\fire_demo\Debug\Obj\stdlib.o       #
+#                    C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire #
+#                    _demo\Debug\Obj\sysinit.o C:\Users\Chao\Desktop\landzoK6 #
+#                    0µ¥µç»ú¼ì²â³ÌÐò\build\fire_demo\Debug\Obj\uart.o         #
+#                    C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire #
+#                    _demo\Debug\Obj\uif.o C:\Users\Chao\Desktop\landzoK60µ¥µ #
+#                    ç»ú¼ì²â³ÌÐò\build\fire_demo\Debug\Obj\vectors.o          #
+#                    C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire #
+#                    _demo\Debug\Obj\wdog.o -o C:\Users\Chao\Desktop\landzoK6 #
+#                    0µ¥µç»ú¼ì²â³ÌÐò\build\fire_demo\Debug\Exe\fire_gpio_demo #
+#                    .out --map C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò #
+#                    \build\fire_demo\Debug\List\fire_gpio_demo.map --config  #
+#                    "C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fir #
+#                    e_demo\..\config files\fire_ROM_K60N512.icf"             #
+#                    --semihosting --entry __iar_program_start --vfe          #
+#                                                                             #
+#                                                                             #
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A1":  place at 0x00000000 { ro section .intvec };
+"A2":  place at 0x00000410 { ro section .noinit };
+"P1":  place in [from 0x00000000 to 0x00040000] { ro, block CodeRelocate };
+"P2":  place in [from 0x1fff0410 to 0x20010000] {
+          rw, block CodeRelocateRam, block CSTACK, block HEAP };
+
+  Section              Kind        Address    Size  Object
+  -------              ----        -------    ----  ------
+"A1":                                        0x410
+  .intvec              const    0x00000000   0x410  vectors.o [1]
+                              - 0x00000410   0x410
+
+"P1", part 1 of 2:                             0x0
+  .rodata              const    0x00000410     0x0  zero_init3.o [4]
+
+"A2":                                         0x3c
+  .noinit              ro code  0x00000410    0x3c  crt0.o [1]
+                              - 0x0000044c    0x3c
+
+"P1", part 2 of 2:                          0x1a80
+  .text                ro code  0x0000044c   0x55c  printf.o [1]
+  .text                ro code  0x000009a8    0x20  stdlib.o [1]
+  .text                ro code  0x000009c8   0x454  isr.o [1]
+  .text                ro code  0x00000e1c   0x25c  uart.o [1]
+  .text                ro code  0x00001078   0x128  arm_cm4.o [1]
+  .text                ro code  0x000011a0   0x3b0  FTM.o [1]
+  Veneer               ro code  0x00001550     0x8  - Linker created -
+  .text                ro code  0x00001558   0x2f4  mcg.o [1]
+  .text                ro code  0x0000184c   0x194  main.o [1]
+  .text                ro code  0x000019e0    0xa4  gpio.o [1]
+  .text                ro code  0x00001a84    0x70  PIT.o [1]
+  .text                ro code  0x00001af4    0xc0  startup.o [1]
+  .text                ro code  0x00001bb4    0x5c  sysinit.o [1]
+  .data_init                    0x00001c10    0x54  <Block>
+    Initializer bytes  ro data  0x00001c10    0x54  <for .data-1>
+  CodeRelocate                  0x00001c64    0x50  <Block>
+    Initializer bytes  ro data  0x00001c64    0x50  <for CodeRelocateRam-1>
+  .rodata              const    0x00001cb4    0x3c  arm_cm4.o [1]
+  .rodata              const    0x00001cf0    0x38  arm_cm4.o [1]
+  .text                ro code  0x00001d28    0x38  wdog.o [1]
+  .rodata              const    0x00001d60    0x30  vectors.o [1]
+  .text                ro code  0x00001d90    0x28  data_init.o [4]
+  .text                ro code  0x00001db8    0x22  zero_init3.o [4]
+  .iar.init_table      const    0x00001ddc    0x10  - Linker created -
+  .rodata              const    0x00001dec    0x20  isr.o [1]
+  .text                ro code  0x00001e0c    0x18  vectors.o [1]
+  .text                ro code  0x00001e24    0x16  cmain.o [4]
+  .text                ro code  0x00001e3a     0x4  low_level_init.o [3]
+  .text                ro code  0x00001e3e     0x4  exit.o [3]
+  .text                ro code  0x00001e44     0xa  cexit.o [4]
+  .text                ro code  0x00001e50    0x14  exit.o [5]
+  .rodata              const    0x00001e64    0x14  isr.o [1]
+  .rodata              const    0x00001e78    0x14  isr.o [1]
+  .text                ro code  0x00001e8c    0x14  start.o [1]
+  .rodata              const    0x00001ea0    0x10  isr.o [1]
+  .text                ro code  0x00001eb0    0x10  io.o [1]
+  .text                ro code  0x00001ec0     0xc  cstartup_M.o [4]
+                              - 0x00001ecc  0x1a80
+
+"P2", part 1 of 2:                            0xa4
+  .data                         0x1fff0410    0x54  <Block>
+    .data-1                     0x1fff0410    0x54  <Init block>
+      .data            inited   0x1fff0410     0xc  FTM.o [1]
+      .data            inited   0x1fff041c    0x14  gpio.o [1]
+      .data            inited   0x1fff0430    0x14  gpio.o [1]
+      .data            inited   0x1fff0444     0x8  mcg.o [1]
+      .data            inited   0x1fff044c    0x18  uart.o [1]
+  CodeRelocateRam               0x1fff0464    0x50  <Block>
+    CodeRelocateRam-1           0x1fff0464    0x50  <Init block>
+      .textrw          inited   0x1fff0464    0x50  mcg.o [1]
+                              - 0x1fff04b4    0xa4
+
+"P2", part 2 of 2:                            0x26
+  .bss                          0x1fff04b4    0x26  <Block>
+    .bss               zero     0x1fff04b4     0x4  sysinit.o [1]
+    .bss               zero     0x1fff04b8     0x4  sysinit.o [1]
+    .bss               zero     0x1fff04bc     0x4  sysinit.o [1]
+    .bss               zero     0x1fff04c0     0x2  isr.o [1]
+    .bss               zero     0x1fff04c2     0x2  isr.o [1]
+    .bss               zero     0x1fff04c4     0x2  isr.o [1]
+    .bss               zero     0x1fff04c6     0x2  isr.o [1]
+    .bss               zero     0x1fff04c8     0x1  isr.o [1]
+    .bss               zero     0x1fff04c9     0x1  isr.o [1]
+    .bss               zero     0x1fff04ca     0x1  isr.o [1]
+    .bss               zero     0x1fff04cb     0x1  isr.o [1]
+    .bss               zero     0x1fff04cc     0x1  isr.o [1]
+    .bss               zero     0x1fff04cd     0x1  isr.o [1]
+    .bss               zero     0x1fff04ce     0x1  isr.o [1]
+    .bss               zero     0x1fff04cf     0x1  isr.o [1]
+    .bss               zero     0x1fff04d0     0x1  isr.o [1]
+    .bss               zero     0x1fff04d1     0x1  isr.o [1]
+    .bss               zero     0x1fff04d2     0x1  isr.o [1]
+    .bss               zero     0x1fff04d3     0x1  isr.o [1]
+    .bss               zero     0x1fff04d4     0x1  isr.o [1]
+    .bss               zero     0x1fff04d5     0x1  isr.o [1]
+    .bss               zero     0x1fff04d6     0x1  isr.o [1]
+    .bss               zero     0x1fff04d7     0x1  isr.o [1]
+    .bss               zero     0x1fff04d8     0x1  isr.o [1]
+    .bss               zero     0x1fff04d9     0x1  main.o [1]
+                              - 0x1fff04da    0x26
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address     Size
+          -------     ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x26:
+          0x1fff04b4  0x26
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  rw code  ro data  rw data
+    ------            -------  -------  -------  -------
+C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire_demo\Debug\Obj: [1]
+    FTM.o                 944                12       12
+    PIT.o                 112
+    arm_cm4.o             296               116
+    crt0.o                 60
+    gpio.o                164                40       40
+    io.o                   16
+    isr.o               1 108                88       25
+    main.o                404                          1
+    mcg.o                 756       80       88        8
+    printf.o            1 372
+    start.o                20
+    startup.o             192
+    stdlib.o               32
+    sysinit.o              92                         12
+    uart.o                604                24       24
+    vectors.o              24             1 088
+    wdog.o                 56
+    ----------------------------------------------------
+    Total:              6 252       80    1 456      122
+
+command line: [2]
+    ----------------------------------------------------
+    Total:
+
+dl7M_tln.a: [3]
+    exit.o                  4
+    low_level_init.o        4
+    ----------------------------------------------------
+    Total:                  8
+
+rt7M_tl.a: [4]
+    cexit.o                10
+    cmain.o                22
+    cstartup_M.o           12
+    data_init.o            40
+    zero_init3.o           34
+    ----------------------------------------------------
+    Total:                118
+
+shb_l.a: [5]
+    exit.o                 20
+    ----------------------------------------------------
+    Total:                 20
+
+    Gaps                    4                 2
+    Linker created          8                16
+--------------------------------------------------------
+    Grand Total:        6 410       80    1 474      122
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                      Address   Size  Type      Object
+-----                      -------   ----  ----      ------
+.bss$$Base              0x1fff04b4          --   Gb  - Linker created -
+.bss$$Limit             0x1fff04da          --   Gb  - Linker created -
+.data$$Base             0x1fff0410          --   Gb  - Linker created -
+.data$$Limit            0x1fff0464          --   Gb  - Linker created -
+.data_init$$Base        0x00001c10          --   Gb  - Linker created -
+.data_init$$Limit       0x00001c64          --   Gb  - Linker created -
+?main                   0x00001e25         Code  Gb  cmain.o [4]
+CodeRelocate$$Base      0x00001c64          --   Gb  - Linker created -
+CodeRelocate$$Limit     0x00001cb4          --   Gb  - Linker created -
+CodeRelocateRam$$Base   0x1fff0464          --   Gb  - Linker created -
+CodeRelocateRam$$Limit  0x1fff04b4          --   Gb  - Linker created -
+DMA_CH0_Handler         0x00000d57   0x22  Code  Gb  isr.o [1]
+DMA_CH4_Handler         0x00000d2f   0x28  Code  Gb  isr.o [1]
+DMA_Over_Flg            0x1fff04d7    0x1  Data  Gb  isr.o [1]
+FTM0_IRQHandler         0x00000cd1    0x2  Code  Gb  isr.o [1]
+FTM1_IRQHandler         0x00000cd3   0x5c  Code  Gb  isr.o [1]
+FTM_PWM_Duty            0x000014d9   0x34  Code  Gb  FTM.o [1]
+FTM_PWM_init            0x000011a1  0x338  Code  Gb  FTM.o [1]
+FTMx                    0x1fff0410    0xc  Data  Gb  FTM.o [1]
+GPIOx                   0x1fff041c   0x14  Data  Gb  gpio.o [1]
+HardFault_Handler       0x00000ab5    0xc  Code  Gb  isr.o [1]
+LPT_Handler             0x00000d79   0x18  Code  Gb  isr.o [1]
+LPT_INT_count           0x1fff04d8    0x1  Data  Gb  isr.o [1]
+PIT0_IRQHandler         0x00000a07   0xaa  Code  Gb  isr.o [1]
+PIT1_IRQHandler         0x000009ed   0x1a  Code  Gb  isr.o [1]
+PIT2_IRQHandler         0x00000c2b   0xa6  Code  Gb  isr.o [1]
+PORTB_IRQHandler        0x00000bef   0x3c  Code  Gb  isr.o [1]
+PORTD_IRQHandler        0x00000ac1  0x12e  Code  Gb  isr.o [1]
+PORTX                   0x1fff0430   0x14  Data  Gb  gpio.o [1]
+PendSV_Handler          0x00000ab3    0x2  Code  Gb  isr.o [1]
+Region$$Table$$Base     0x00001ddc          --   Gb  - Linker created -
+Region$$Table$$Limit    0x00001dec          --   Gb  - Linker created -
+Reset_Handler           0x00000411         Code  Gb  crt0.o [1]
+SysTick_Handler         0x00000ab1    0x2  Code  Gb  isr.o [1]
+TIME0flag_10ms          0x1fff04c9    0x1  Data  Gb  isr.o [1]
+TIME0flag_15ms          0x1fff04ca    0x1  Data  Gb  isr.o [1]
+TIME0flag_20ms          0x1fff04cb    0x1  Data  Gb  isr.o [1]
+TIME0flag_5ms           0x1fff04c8    0x1  Data  Gb  isr.o [1]
+TIME0flag_80ms          0x1fff04cc    0x1  Data  Gb  isr.o [1]
+TIME1flag_1s            0x1fff04cd    0x1  Data  Gb  isr.o [1]
+TimeCount               0x1fff04ce    0x1  Data  Gb  isr.o [1]
+UARTx                   0x1fff044c   0x18  Data  Gb  uart.o [1]
+USART1_IRQHandler       0x000009c9   0x24  Code  Gb  isr.o [1]
+__BOOT_STACK_ADDRESS {Abs}
+                        0x2000fff8          --   Gb  command line/config [2]
+__VECTOR_RAM {Abs}      0x1fff0000          --   Gb  command line/config [2]
+__VECTOR_TABLE {Abs}    0x00000000          --   Gb  command line/config [2]
+__cmain                 0x00001e25         Code  Gb  cmain.o [4]
+__code_start__ {Abs}    0x00000410          --   Gb  command line/config [2]
+__exit                  0x00001e51   0x14  Code  Gb  exit.o [5]
+__iar_data_init3        0x00001d91   0x28  Code  Gb  data_init.o [4]
+__iar_program_start     0x00001ec1         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3        0x00001db9   0x22  Code  Gb  zero_init3.o [4]
+__low_level_init        0x00001e3b    0x4  Code  Gb  low_level_init.o [3]
+__vector_table          0x00000000  0x410  Data  Gb  vectors.o [1]
+_call_main              0x00001e31         Code  Gb  cmain.o [4]
+_exit                   0x00001e45         Code  Gb  cexit.o [4]
+_main                   0x00001e37         Code  Gb  cmain.o [4]
+bus_clk_khz             0x1fff04bc    0x4  Data  Gb  sysinit.o [1]
+common_startup          0x00001af5   0xc0  Code  Gb  startup.o [1]
+core_clk_khz            0x1fff04b4    0x4  Data  Gb  sysinit.o [1]
+core_clk_mhz            0x1fff04b8    0x4  Data  Gb  sysinit.o [1]
+default_isr             0x00001e0d   0x18  Code  Gb  vectors.o [1]
+disable_irq             0x00001113   0x5e  Code  Gb  arm_cm4.o [1]
+enable_irq              0x0000107f   0x94  Code  Gb  arm_cm4.o [1]
+exit                    0x00001e3f    0x4  Code  Gb  exit.o [3]
+gpio_init               0x000019e1   0x9c  Code  Gb  gpio.o [1]
+i                       0x1fff04d9    0x1  Data  Gb  main.o [1]
+key10cout               0x1fff04c4    0x2  Data  Gb  isr.o [1]
+key10flg                0x1fff04d4    0x1  Data  Gb  isr.o [1]
+key10start              0x1fff04d3    0x1  Data  Gb  isr.o [1]
+key11cout               0x1fff04c6    0x2  Data  Gb  isr.o [1]
+key11flg                0x1fff04d6    0x1  Data  Gb  isr.o [1]
+key11start              0x1fff04d5    0x1  Data  Gb  isr.o [1]
+key8cout                0x1fff04c0    0x2  Data  Gb  isr.o [1]
+key8flg                 0x1fff04d0    0x1  Data  Gb  isr.o [1]
+key8start               0x1fff04cf    0x1  Data  Gb  isr.o [1]
+key9cout                0x1fff04c2    0x2  Data  Gb  isr.o [1]
+key9flg                 0x1fff04d2    0x1  Data  Gb  isr.o [1]
+key9start               0x1fff04d1    0x1  Data  Gb  isr.o [1]
+main                    0x0000184d  0x194  Code  Gb  main.o [1]
+mcg_div                 0x1fff0444    0x8  Data  Gb  mcg.o [1]
+out_char                0x00001eb1   0x10  Code  Gb  io.o [1]
+pit_init                0x00001a85   0x62  Code  Gb  PIT.o [1]
+pll_init                0x00001559  0x2f4  Code  Gb  mcg.o [1]
+printf                  0x0000097f   0x26  Code  Gb  printf.o [1]
+printk                  0x00000575  0x40a  Code  Gb  printf.o [1]
+printk_mknumstr         0x0000047f   0xaa  Code  Lc  printf.o [1]
+printk_pad_space        0x0000054f   0x26  Code  Lc  printf.o [1]
+printk_pad_zero         0x00000529   0x26  Code  Lc  printf.o [1]
+printk_putc             0x0000044d   0x32  Code  Lc  printf.o [1]
+set_sys_dividers        0x1fff0465   0x50  Code  Gb  mcg.o [1]
+start                   0x00001e8d   0x14  Code  Gb  start.o [1]
+strlen                  0x000009a9   0x20  Code  Gb  stdlib.o [1]
+sysinit                 0x00001bb5   0x48  Code  Gb  sysinit.o [1]
+uart_getchar            0x00000fcd   0x1a  Code  Gb  uart.o [1]
+uart_getcharflg         0x00000fe7   0x18  Code  Gb  uart.o [1]
+uart_init               0x00000e1d  0x1b0  Code  Gb  uart.o [1]
+uart_putchar            0x00000fff   0x1a  Code  Gb  uart.o [1]
+uart_sendStr            0x00001019   0x1c  Code  Gb  uart.o [1]
+wdog_disable            0x00001d29   0x16  Code  Gb  wdog.o [1]
+wdog_unlock             0x00001d41   0x16  Code  Gb  wdog.o [1]
+write_vtor              0x00001079    0x6  Code  Gb  arm_cm4.o [1]
+
+
+[1] = C:\Users\Chao\Desktop\landzoK60µ¥µç»ú¼ì²â³ÌÐò\build\fire_demo\Debug\Obj
+[2] = command line
+[3] = dl7M_tln.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  6 410 bytes of readonly  code memory
+     80 bytes of readwrite code memory
+  1 474 bytes of readonly  data memory
+    122 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
